@@ -118,3 +118,21 @@ ul li {
   max-width: 100%;
   height: auto;
 }
+.main-section .right__side .text_file ul {
+  padding-left: 15px;
+}
+.main-section .right__side .text_file ul li {
+  padding-bottom: 8px;
+}
+.main-section .right__side .text_file ul li:last-child {
+  padding-bottom: 0px;
+}
+.main-section .right__side .text_file ul li a {
+  color: #6b7280;
+  transition: all 0.2s linear;
+  font-size: 16px;
+  font-weight: 600;
+}
+.main-section .right__side .text_file ul li a:hover {
+  color: #de2021;
+}
