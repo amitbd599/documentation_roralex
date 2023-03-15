@@ -49,22 +49,22 @@ ul li {
 .main-section .left__side .inner__menu .menu {
   margin-top: 20px;
 }
-.main-section .left__side .inner__menu .menu ul li {
+.main-section .left__side .inner__menu .menu ul li a {
   padding: 10px 15px;
   cursor: pointer;
   transition: all 0.2s linear;
-}
-.main-section .left__side .inner__menu .menu ul li.active {
-  background: #de2021;
-}
-.main-section .left__side .inner__menu .menu ul li:hover {
-  background: #de2021;
-}
-.main-section .left__side .inner__menu .menu ul li a {
   font-size: 16px;
   font-weight: 600;
   color: #fff;
+  display: block;
 }
+.main-section .left__side .inner__menu .menu ul li.active a {
+  background: #de2021;
+}
+.main-section .left__side .inner__menu .menu ul li:hover a {
+  background: #de2021;
+}
+
 .main-section .left__side .inner__menu .copy__write {
   position: fixed;
   bottom: 10px;
