@@ -48,6 +48,8 @@ ul li {
 }
 .main-section .left__side .inner__menu .menu {
   margin-top: 20px;
+  height: calc(100vh - 190px);
+  overflow-y: auto;
 }
 .main-section .left__side .inner__menu .menu ul li a {
   padding: 10px 15px;
