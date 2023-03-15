@@ -112,3 +112,7 @@ ul li {
   font-size: 26px;
   font-weight: 700;
 }
+.main-section .right__side img {
+  max-width: 100%;
+  height: auto;
+}
